@@ -61,7 +61,7 @@ This avoids `BOOTSTRAP_TOKEN_OWNER`, the reserved bootstrap application, and
 any login-capable user as an M2M identity. Programmatic bootstrap remains a
 separate, compatible feature and is not modified by this work.
 
-The OAuth-application-principal and org-scoped-WIF design are deferred rather
+The OAuth-application-principal and instance-scoped-WIF design are deferred rather
 than partially implemented. If a future use case cannot be represented by a
 robot identity and its explicit Quay permissions, it requires a separate
 proposal.
